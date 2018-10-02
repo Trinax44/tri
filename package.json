@@ -1,0 +1,22 @@
+{
+  "name": "Tampax",
+  "version": "1.0.0",
+  "description": "Crée Par Trinax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xarlion",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "enmap": "^2.7.2",
+    "events": "^3.0.0",
+    "googleapis": "^32.0.0",
+    "moment": "^2.22.2",
+    "node-opus": "^0.3.0",
+    "pg": "^7.4.3",
+    "read-text-file": "^1.1.0",
+    "ytdl-core": "^0.23.0"
+  }
+}
