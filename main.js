@@ -30,4 +30,4 @@ Bot.on('guildMemberAdd', member => {
     // On pourrait catch l'erreur autrement ici (l'utilisateur a peut être désactivé les MP)
   })
 
-Bot.login('NDg2MTQ1NTM5OTk4NzQ0NTc3.DpD4LQ.gXnIupWO6tOD989fhqdRB4fO8es');
+Bot.login();
