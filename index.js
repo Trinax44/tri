@@ -4,7 +4,7 @@ var Bot = new Discord.Client();
 var prefix = ("$");
 
 Bot.on('ready', () => {
-    Bot.user.setPresence({game: {name : '$help Tampax'}})
+    Bot.user.setPresence({game: {name : '$info'}})
     console.log("Bot Prêt !");
 });
 
@@ -16,8 +16,8 @@ Bot.on('message', message => {
         console.log('bonjour Bonjour a Toi!');
     }
 
-    if (message.content === prefix + "help"){
-        message.channel.sendMessage("Voici Les commandes du Bot : \n Se Bot n'est la que pour souhaiter le bienvenu sur le serveur.");
+    if (message.content === prefix + "info"){
+        message.channel.sendMessage("Se Bot n'est la que pour souhaiter le bienvenu sur le serveur.");
         console.log("Commande Help demandée !");
     }
 
