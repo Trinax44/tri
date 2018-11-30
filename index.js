@@ -25,7 +25,7 @@ Bot.on('message', message => {
 
 Bot.on('guildMemberAdd', member => {
     member.createDM().then(channel => {
-      return channel.send('Bienvenue sur le serveur Seikatsu' + member.displayName)
+      return channel.send('Bienvenue sur le serveur' + member.displayName)
     }).catch(console.error)
     // On pourrait catch l'erreur autrement ici (l'utilisateur a peut être désactivé les MP)
   })
